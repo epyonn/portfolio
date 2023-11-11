@@ -10,7 +10,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <AppBar position="static" elevation={1} sx={headerStyles.appBar}>
+    <AppBar position="static" elevation={0} sx={headerStyles.appBar}>
       <Toolbar>
         <IconButton
           edge="start"

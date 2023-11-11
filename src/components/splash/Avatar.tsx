@@ -1,6 +1,6 @@
-import character from '../assets/character4.png';
-import backgroundGif from '../assets/matrixcode3-export.gif'; // Import the GIF
-import '../App.css'
+import character from '../../assets/character4.png';
+import backgroundGif from '../../assets/matrixcode3-export.gif'; // Import the GIF
+import '../../App.css'
 
 const Avatar = () => {
     return (
