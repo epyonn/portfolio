@@ -31,7 +31,7 @@ const About: React.FC = () => {
             >
       
             <Typography>
-            As a seasoned Process Engineer with 9 years in the solar industry, I have specialized in PV Cell Laser Cutting and Stringing Processes, significantly contributing to solar module advancements for both commercial and residential markets. My expertise in Python and data analytics led to the development of innovative dashboards, fueling my passion for coding. Now transitioning into web development, I bring a unique blend of engineering precision and creative coding, with a focus on JavaScript, TypeScript, React, HTML, and CSS, ready to deliver cutting-edge web solutions.
+            As a seasoned Process Engineer with 9 years in the solar industry, I have specialized in Photovoltaic Cell Laser Cutting and Stringing Processes, significantly contributing to solar module advancements for both commercial and residential markets. My expertise in Python and data analytics led to the development of innovative dashboards, fueling my passion for coding. Now transitioning into web development, I bring a unique blend of engineering precision and creative coding, with a focus on JavaScript, TypeScript, React, HTML, and CSS, ready to deliver cutting-edge web solutions.
             </Typography>
             
             </motion.p>
