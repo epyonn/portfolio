@@ -44,7 +44,7 @@ const Sphere: React.FC<SphereProps> = ({
         camera.lookAt(sphere.position); // Ensure the camera looks at the sphere
 
  
-
+        /*
         let deltaY = 0.01; 
         const rotationRange = Math.PI / 10; // Small rotation range for gentle oscillation
         const minY = sphere.rotation.y - rotationRange;
@@ -63,6 +63,32 @@ const Sphere: React.FC<SphereProps> = ({
 
             renderer.render(scene, camera);
         };
+        */
+
+
+        let rotationSpeed = 0.01; // Constant rotation speed
+        const minY = sphere.rotation.y - Math.PI / 4; // Example minimum rotation limit
+        const maxY = sphere.rotation.y + Math.PI / 4; // Example maximum rotation limit
+
+        const animate = () => {
+            requestAnimationFrame(animate);
+
+            if (sphereRef.current) {
+                // Update rotation
+                sphereRef.current.rotation.y += rotationSpeed;
+
+                // Reverse direction when limits are reached
+                if (sphereRef.current.rotation.y < minY || sphereRef.current.rotation.y > maxY) {
+                    rotationSpeed = -rotationSpeed;
+                }
+            }
+
+            renderer.render(scene, camera);
+        };
+
+
+
+
 
         animate();
 

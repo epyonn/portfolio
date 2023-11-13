@@ -2,7 +2,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Box, Button } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import headerStyles from '../styles/HeaderStyles'; // Adjust the import path as needed
+import  '../styles/HeaderStyles.css'; // Adjust the import path as needed
 
 interface HeaderProps {
   title: string;
@@ -10,24 +10,24 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <AppBar position="static" elevation={0} sx={headerStyles.appBar}>
+    <AppBar position="static" className="appBar" elevation={1} >
       <Toolbar>
         <IconButton
           edge="start"
           color="inherit"
           aria-label="menu"
-          sx={headerStyles.menuButton}
+          className="menuButton"
         >
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" component="div" sx={headerStyles.title}>
+        <Typography variant="h6" component="div" className="title">
           {title}
         </Typography>
-        <Box sx={headerStyles.buttonContainer}>
+        <div className="buttonContainer">
           <Button color="inherit">About</Button>
           <Button color="inherit">Work</Button>
           <Button color="inherit">Contact</Button>
-        </Box>
+        </div>
       </Toolbar>
     </AppBar>
   )

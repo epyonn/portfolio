@@ -1,0 +1,20 @@
+/* Increase specificity */
+.MuiAppBar-root.appBar {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+
+
+.menuButton {
+    margin-right: 2px;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+}

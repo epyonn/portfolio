@@ -5,23 +5,16 @@ import Intro from './components/splash/Intro';
 import Splash from './components/splash/Splash';
 import Sphere from './components/geometry/Sphere';
 import htmlImg from './assets/tech/html.png';
+import BallCanvas from './components/geometry/BallCanvas';
+import About from './components/About';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header title="Davis Nguyen" />
-      {/*
-      <div className="intro">
-        <div className="Intro">
-          <Intro />
-        </div>
-
-        <Avatar />
-      </div>
-      */}
       <Splash />
-
+      <About />
     </div>
   );
 }
