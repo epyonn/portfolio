@@ -1,7 +1,7 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     margin-top: 100px;
 }
 
@@ -15,4 +15,14 @@
     font-size: 45px;
     font-weight: bold;
     
+}
+
+.about-container .overView-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.module-img {
+    height: 450px;
+    width: 450px;
 }

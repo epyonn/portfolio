@@ -7,6 +7,7 @@ import Sphere from './components/geometry/Sphere';
 import htmlImg from './assets/tech/html.png';
 import BallCanvas from './components/geometry/BallCanvas';
 import About from './components/About';
+import Projects from './components/Projects/Projects';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header title="Davis Nguyen" />
       <Splash />
       <About />
+      <Projects />
     </div>
   );
 }
