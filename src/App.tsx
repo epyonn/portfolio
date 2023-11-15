@@ -7,7 +7,7 @@ import Sphere from './components/geometry/Sphere';
 import htmlImg from './assets/tech/html.png';
 import BallCanvas from './components/geometry/BallCanvas';
 import About from './components/About';
-import Projects from './components/projects/Projects';
+import Projects from './components/Projects/Projects';
 import Contact from './components/contact/Contact';
 import './App.css';
 
