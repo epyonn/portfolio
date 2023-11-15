@@ -19,6 +19,7 @@
 .project-gif {
     border-radius: 15px;
     border: 1px solid black;
+    margin: 10px;
 }
 
 .cc-container {
@@ -26,9 +27,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
 .app-description {
     width: 800px;
     margin-top: 30px;
+}
+
+.eggtopia-container .title-text {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.eggtopia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px
 }

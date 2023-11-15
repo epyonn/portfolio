@@ -9,11 +9,10 @@ const CrimeCompass: React.FC = () => {
     return (
         <div className="cc-container">
         <Typography className="title-text"> Crime Compass </Typography>
-        <ProjectVideo videoPath={ crimeGif } />
+        <ProjectVideo videoPath={ crimeGif } width={"850"} height={"500"}  />
         <div className="app-description">
             <Typography>
-                    Crime Compass is my attempt at fighting the increasing trend of car burglaries in Oakland. I’ve had my car broken into over five times and I’ve noticed the car break-ins would occur on specific streets/locations. I wanted an app where I can collect data on where break-ins occur and plot it on a map. Using this data can guide me to  “safer” locations to park. Crime Compass is a full-stack CRUD application that utilizes javascript, html, css for the frontend and node, express, and mongodb for the backend. Crime Compass is available online and anyone can make a report.
-            </Typography>
+            Crime Compass is my proactive response to the rising trend of car burglaries in Oakland, a challenge I've personally faced with over five break-ins to my own vehicle. I observed that these incidents often occurred in specific streets or locations. This realization sparked the idea for an app where users can collate data on break-in hotspots and visualize them on a map. This feature aims to assist users in identifying and opting for safer parking spots based on the compiled data. As a full-stack CRUD application, Crime Compass leverages JavaScript, HTML, and CSS for the front end, while employing Node.js, Express, and MongoDB for the backend. It's a community-driven platform, accessible online, where anyone can contribute by reporting incidents, thereby helping others make informed decisions about where to park safely.            </Typography>
         </div>
         </div>
     )

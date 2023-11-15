@@ -1,6 +1,7 @@
 import React from 'react';
 import {Typography} from '@mui/material';
 import CrimeCompass from './CrimeCompass';
+import Eggtopia from './Eggtopia';
 import '../../styles/Projects.css';
 
 
@@ -9,6 +10,7 @@ const Projects: React.FC = () => {
         <div className="projects-container">
             <Typography className="projects-text"> Projects.</Typography>
             <CrimeCompass />
+            <Eggtopia />
         </div>
     )
 }

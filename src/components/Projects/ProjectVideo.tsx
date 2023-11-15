@@ -3,12 +3,15 @@ import '../../styles/Projects.css';
 
 type VideoPlayerProps = {
     videoPath: string;
+    width: string;
+    height: string;
 };
 
-const ProjectVideo: React.FC<VideoPlayerProps> = ({ videoPath }) => {
+const ProjectVideo: React.FC<VideoPlayerProps> = ({ videoPath, width, height }) => {
     return (
-        <img src={videoPath} alt="Animated content" width="850" height="500" className="project-gif"/>
+        <img src={videoPath} alt="Animated content" width={width} height={height} className="project-gif"/>
     );
 };
 
+// 850 500
 export default ProjectVideo;
