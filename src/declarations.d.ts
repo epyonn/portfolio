@@ -13,3 +13,9 @@ declare module '*.png' {
     export default src;
   }
   
+
+  declare module '*.gltf' {
+    const content: string;
+    export default content;
+  }
+  

@@ -9,6 +9,7 @@ import BallCanvas from './components/geometry/BallCanvas';
 import About from './components/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/contact/Contact';
+import Scene from './components/contact/Scene';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <Splash />
       <About />
       <Projects />
-
+      <Contact />
     </div>
   );
 }
