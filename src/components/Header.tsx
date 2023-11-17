@@ -24,9 +24,9 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
           {title}
         </Typography>
         <div className="buttonContainer">
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Work</Button>
-          <Button color="inherit">Contact</Button>
+          <Button color="inherit" component="a" href="#about-section">About</Button>
+          <Button color="inherit" component="a" href="#projects-section">Work</Button>
+          <Button color="inherit" component="a" href="#contact-section">Contact</Button>
         </div>
       </Toolbar>
     </AppBar>

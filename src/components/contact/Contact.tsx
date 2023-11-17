@@ -9,7 +9,7 @@ import '../../styles/Contact.css';
 
 const Contact: React.FC = () => {
     return (
-        <div className="contact-container">
+        <div className="contact-container" id="contact-section">
             <div className="title-text">
                 <Typography variant ="h3"> Contact. </Typography>
             </div>

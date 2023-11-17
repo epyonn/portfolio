@@ -7,7 +7,7 @@ import '../../styles/Projects.css';
 
 const Projects: React.FC = () => {
     return (
-        <div className="projects-container">
+        <div className="projects-container" id="projects-section">
             <Typography className="projects-text"> Projects.</Typography>
             <CrimeCompass />
             <Eggtopia />
