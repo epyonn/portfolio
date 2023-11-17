@@ -1,4 +1,3 @@
-/* Increase specificity */
 .MuiAppBar-root.appBar {
     background-color: white;
     color: black;
@@ -17,13 +16,12 @@
     display: flex;
     flex-direction: row;
 }
+
 @media screen and (max-width: 600px) {
 
-    .appBar .menuButton {
-        display: none; /* Hide the title on smaller screens */
-    }
+    .appBar .menuButton,
     .appBar .title {
-        display: none; /* Hide the title on smaller screens */
+        display: none; 
     }
 
     .appBar{

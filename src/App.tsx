@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
+import Header from './components/header/Header';
 import Avatar from './components/splash/Avatar';
 import Intro from './components/splash/Intro';
 import Splash from './components/splash/Splash';
@@ -15,14 +15,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* 
-      <Header title="Davis Nguyen" />
-      <Splash />
-      <About />
-      <Projects />
-      <Contact />
-      */}
-
       <Header title="Davis Nguyen" />
       <Splash />
       <About />
@@ -35,10 +27,3 @@ function App() {
 export default App;
 
 
-      {/* 
-      <Header title="Davis Nguyen" />
-      <Splash />
-      <About />
-      <Projects />
-      <Contact />
-      */}
