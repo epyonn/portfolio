@@ -20,9 +20,36 @@
 .about-container .overView-container {
     display: flex;
     flex-direction: row;
+
 }
 
+.overView-container .overview-text {
+    min-width: 400px;
+    max-width: 100%;
+}
 .module-img {
     height: 450px;
     width: 450px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .about-container .overView-container {
+        flex-direction: column;
+    }
+
+    
+    .overview-typography {
+        width: 95%;
+        
+    }
+
+    .module-img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Adjust height automatically */
+    }
 }

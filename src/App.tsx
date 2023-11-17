@@ -15,6 +15,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {/* 
+      <Header title="Davis Nguyen" />
+      <Splash />
+      <About />
+      <Projects />
+      <Contact />
+      */}
+
       <Header title="Davis Nguyen" />
       <Splash />
       <About />
@@ -25,3 +33,12 @@ function App() {
 }
 
 export default App;
+
+
+      {/* 
+      <Header title="Davis Nguyen" />
+      <Splash />
+      <About />
+      <Projects />
+      <Contact />
+      */}

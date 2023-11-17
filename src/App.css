@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 .character-container {
@@ -66,4 +67,61 @@
   width: 30%;
   height: 30%;
   z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+
+  .character-container, .character-image {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Adjust height automatically */
+    
+  }
+
+  .splash-container {
+    flex-direction: column; /* Stack elements vertically */
+    left: 0; /* Reset left alignment */
+    align-items: center; /* Center items */
+  }
+
+  .Intro {
+    top: -50%; /* Adjust position for smaller screens */
+    left: 0;
+    transform: translate(0, 50%); /* Center horizontally */
+  }
+  .sphere-js-container {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    width: 30%;
+    height: 30%;
+    z-index: -1; 
+  }
+
+  .sphere-html-container {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 30%;
+    height: 30%;
+    z-index: -1;
+  }
+  
+  .sphere-css-container {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    width: 30%;
+    height: 30%;
+    z-index: 1;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    
+  }
+
 }

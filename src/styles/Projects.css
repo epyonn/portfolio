@@ -7,7 +7,6 @@
 .projects-container .projects-text {
     font-size: 45px;
     font-weight: bold;
-    
 }
 
 .cc-container .title-text {
@@ -46,5 +45,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .projects-container, .cc-container {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .projects-container .projects-text, 
+    .cc-container .title-text, 
+    .eggtopia-container .title-text {
+        font-size: 30px; /* Reduce font size for smaller screens */
+    }
+
+    .app-description {
+        width: 95%; /* Adjust width to fit mobile screens */
+        margin: 10px; /* Adjust margins as needed */
+    }
+
+    .project-gif {
+        width: 97%; /* Make GIFs responsive */
+        height: auto; /* Adjust height automatically */
+        max-width: 600px; /* Maximum width for GIFs */
+        margin: 5px; /* Adjust margins for smaller screens */
+    }
 }

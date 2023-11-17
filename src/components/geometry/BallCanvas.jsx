@@ -41,6 +41,24 @@ const Ball = (props) => {
 
 // Define a functional component 'BallCanvas' which will wrap the Ball component in a Canvas for 3D rendering
 const BallCanvas = ({imageUrl}) => {
+
+  const isWebGLAvailable = () => {
+    try {
+      const canvas = document.createElement('canvas');
+      return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+    } catch (e) {
+      return false;
+    }
+  };
+
+  if (!isWebGLAvailable()) {
+    return <p>Your browser or device does not support WebGL.</p>;
+  }
+
+
+
+
+
   // Return JSX for rendering the Canvas with the Ball component inside
   return (
     <Canvas

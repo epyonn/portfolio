@@ -30,9 +30,11 @@ const About: React.FC = () => {
             <motion.p
             >
             <div className="overView-container">
-                <Typography>
+                <div className="overview-text">
+                <Typography className="overview-typography">
                     As a seasoned Process Engineer with 9 years in the solar industry, I've specialized in photovoltaic cell laser cutting and stringing processes, significantly contributing to the development of solar module products for both commercial and residential markets. My expertise in Python and data analytics led to the development of innovative dashboards tracking solar module IV performance, fueling my passion for coding. Now transitioning into web development, I bring a unique blend of engineering precision and creative coding, with a focus on JavaScript, TypeScript, React, HTML, and CSS, ready to deliver cutting-edge web solutions.                
                 </Typography>
+                </div>
                 <div>
                     <img src={solarPanel} className='module-img'/>
                 </div>
