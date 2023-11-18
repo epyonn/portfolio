@@ -6,14 +6,11 @@ import BallCanvas from '../geometry/BallCanvas';
 import htmlImg from '../../assets/tech/html2-export.png';
 import jsImg from '../../assets/tech/javascript.png';
 import cssImg from '../../assets/tech/css.png';
-
-
 import '../../App.css'
 
 const Splash: React.FC = () => {
     return (
         <div className="splash-container">
-
             <div className="sphere-js-container">
                 <BallCanvas imageUrl={jsImg}/>
             </div>
@@ -24,7 +21,6 @@ const Splash: React.FC = () => {
             <div className="sphere-css-container">
                 <BallCanvas imageUrl={cssImg} />
             </div>
-            
             <div className="Intro">
                 <Intro />
             </div>

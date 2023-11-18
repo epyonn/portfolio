@@ -13,5 +13,5 @@ const ProjectVideo: React.FC<VideoPlayerProps> = ({ videoPath, width, height }) 
     );
 };
 
-// 850 500
+
 export default ProjectVideo;

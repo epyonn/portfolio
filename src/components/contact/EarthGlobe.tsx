@@ -13,18 +13,16 @@ const EarthGlobe = ({ url }: { url: string }) => {
       if (mesh.material instanceof THREE.MeshStandardMaterial) {
         const material = mesh.material as THREE.MeshStandardMaterial;
         material.flatShading = true;
-        material.needsUpdate = true; // Important to update the material
+        material.needsUpdate = true; 
       }
     }
   });
 
   useFrame(() => {
-
     if(ref.current) {
-      ref.current.rotation.y += 0.005; //adjust rotation speed
+      ref.current.rotation.y += 0.005; 
      }
   })
-
   return <primitive object={gltf.scene} ref={ref}/>;
 };
 

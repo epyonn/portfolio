@@ -5,25 +5,25 @@
     margin-top: 100px;
 }
 
-.about-container .introText {
+.about-container .intro-text {
     font-size: 24px;
     font-weight: bold;
 }
 
 
-.about-container .overviewText {
+.about-container .overview-text {
     font-size: 45px;
     font-weight: bold;
     
 }
 
-.about-container .overView-container {
+.about-container .overview-container {
     display: flex;
     flex-direction: row;
 
 }
 
-.overView-container .overview-text {
+.overview-container .overview-text {
     min-width: 400px;
     max-width: 100%;
 }
@@ -38,12 +38,14 @@
         margin-top: 50px;
     }
 
-    .about-container .overView-container {
+    .about-container .overview-container {
         flex-direction: column;
     }
 
     
     .overview-typography {
+        font-size: 1.8rem; /* Slightly smaller font for mobile */
+
         width: 95%;
         
     }

@@ -32,7 +32,7 @@ const Sphere: React.FC<SphereProps> = ({
         sphere.position.set(...position);
 
         // Set initial rotation to center the image on the sphere
-        sphere.rotation.y = 11/* Adjust this value to center the image */;
+        sphere.rotation.y = 11;
 
         scene.add(sphere);
         sphereRef.current = sphere;
@@ -42,29 +42,6 @@ const Sphere: React.FC<SphereProps> = ({
         camera.position.x = 0;
 
         camera.lookAt(sphere.position); // Ensure the camera looks at the sphere
-
- 
-        /*
-        let deltaY = 0.01; 
-        const rotationRange = Math.PI / 10; // Small rotation range for gentle oscillation
-        const minY = sphere.rotation.y - rotationRange;
-        const maxY = sphere.rotation.y + rotationRange;
-
-        const animate = () => {
-            requestAnimationFrame(animate);
-
-            if (sphereRef.current) {
-                sphereRef.current.rotation.y += deltaY;
-
-                if (sphereRef.current.rotation.y < minY || sphereRef.current.rotation.y > maxY) {
-                    deltaY = -deltaY;
-                }
-            }
-
-            renderer.render(scene, camera);
-        };
-        */
-
 
         let rotationSpeed = 0.01; // Constant rotation speed
         const minY = sphere.rotation.y - Math.PI / 4; // Example minimum rotation limit
@@ -86,12 +63,8 @@ const Sphere: React.FC<SphereProps> = ({
             renderer.render(scene, camera);
         };
 
-
-
-
-
         animate();
-
+ 
         return () => {
             if (mountRef.current) {
                 mountRef.current.removeChild(renderer.domElement);
