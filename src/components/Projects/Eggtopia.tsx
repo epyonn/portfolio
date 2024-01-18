@@ -1,21 +1,35 @@
-import React from 'react';
-import {Typography} from '@mui/material';
+import React, { useState } from 'react';
+import {Typography, Button} from '@mui/material';
 import ProjectVideo from './ProjectVideo';
 import feedGif from '../../assets/projects/feedpet.gif';
 import evolveGif from '../../assets/projects/evolve.gif';
 import petGif from '../../assets/projects/pets.gif';
 import '../../styles/Projects.css';
 
-
 const Eggtopia: React.FC = () => {
+    const gifs = [feedGif, evolveGif, petGif];
+    const [currentGifIndex, setCurrentGifIndex] = useState(0);
+
+    const handleNextGif = () => {
+        setCurrentGifIndex((currentGifIndex + 1) % gifs.length);
+    };
+
+    const handlePreviousGif = () => {
+        setCurrentGifIndex((currentGifIndex - 1 + gifs.length) % gifs.length);
+    };
+
     return (
         <div className="eggtopia-container">
             <Typography className="title-text"> Eggtopia </Typography>
             
             <div className="eggtopia-video-container">
-                <ProjectVideo videoPath={feedGif} width={"306"} height={"665"} />
-                <ProjectVideo videoPath={evolveGif} width={"306"} height={"665"} />
-                <ProjectVideo videoPath={petGif} width={"306"} height={"665"} />
+                <Button onClick={handlePreviousGif}>Previous</Button>
+                <div className="gif-container">
+                    <ProjectVideo videoPath={gifs[(currentGifIndex - 1 + gifs.length) % gifs.length]} width={"153"} height={"332.5"} />
+                    <ProjectVideo videoPath={gifs[currentGifIndex]} width={"306"} height={"665"} />
+                    <ProjectVideo videoPath={gifs[(currentGifIndex + 1) % gifs.length]} width={"153"} height={"332.5"} />
+                </div>
+                <Button onClick={handleNextGif}>Next</Button>
             </div>
             
             <div className="app-description">
@@ -26,7 +40,6 @@ const Eggtopia: React.FC = () => {
             </div>
         </div>
     )
-
 }
 
 export default Eggtopia;

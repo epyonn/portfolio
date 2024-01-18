@@ -6,7 +6,7 @@ import '../../App.css'
 
 const Avatar = () => {
     return (
-        <div className="character-container" style={{ backgroundImage: `url(${backgroundGif2})` }}>
+        <div className="character-container" style={{ backgroundImage: `url(${backgroundGif})` }}>
             <div className="dark-overlay"> </div>
             <img src={character2}  className="character-image"  />
         </div>
