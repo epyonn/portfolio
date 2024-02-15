@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import ProjectVideo from './ProjectVideo';
+import crimePath from '../../assets/projects/crime-compass.mov';
 import crimeGif from '../../assets/projects/crime-compass2.gif';
 import '../../styles/Projects.css';
 
