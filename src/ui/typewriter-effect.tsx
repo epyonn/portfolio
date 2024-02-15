@@ -1,5 +1,5 @@
 "use client";
-import { cn } from "@/utils/cn";
+import { cn } from "../utils/cn";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect } from "react";
 
@@ -138,7 +138,7 @@ export const TypewriterEffectSmooth = ({
   };
 
   return (
-    <div className={cn("flex space-x-1 my-6", className)}>
+    <div className={cn("flex space-x-1 my-3", className)}>
       <motion.div
         className="overflow-hidden "
         initial={{

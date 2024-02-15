@@ -1,3 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@
   border: 1px solid grey;
   background-color: #007AFF;
   border-radius:80px;
-  padding: 20px 50px 20px 50px;
+  padding: 6px 55px 17px 55px;
   color: white;
   
 
