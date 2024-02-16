@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { Typography, Box } from '@mui/material';
-import 
+
 import '../../App.css';
 
 

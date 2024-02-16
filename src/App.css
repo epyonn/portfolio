@@ -9,19 +9,7 @@
   justify-content: center;
 }
 
-@font-face {
-  font-family: 'BDOGrotesk';
-  src: local(BDOGrotesk-VF), url('./assets/fonts/BDOGrotesk-VF.woff2') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Utara';
-  src: local(BDOGrotesk-VF), url('./assets/fonts/BDOGrotesk-VF.woff2') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
 
 .body {
   font-family: 'BDOGrotesk', sans-serif;
