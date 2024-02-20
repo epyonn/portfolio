@@ -4,6 +4,14 @@
     box-shadow: none;
 }
 
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .menuButton {
     margin-right: 2px;
 }
@@ -15,6 +23,13 @@
 .buttonContainer {
     display: flex;
     flex-direction: row;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
