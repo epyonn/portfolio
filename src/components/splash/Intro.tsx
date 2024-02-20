@@ -1,9 +1,9 @@
 "use client";
 import React from 'react';
 import { Typography, Box } from '@mui/material';
+import { TypewriterEffectSmooth } from './typewriter-effect';
 
-import '../../App.css';
-
+import '../../styles/Splash.css';
 
 const Intro = () => {
     const words = [
@@ -18,11 +18,10 @@ const Intro = () => {
         }
     ];
 
-
     return(
         <div className='introduction-text'>
-            <Typography variant="h2" sx={{fontWeight: 'bold'}} > Hi, I'm Davis </Typography>
-            <Typography variant="h4" sx={{fontFamily: 'BDOGrotesk'}}>Software Engineer </Typography>
+            <TypewriterEffectSmooth words={words} />
+            <Typography variant="h4"> Software Engineer </Typography>
         </div>
     )
 }
