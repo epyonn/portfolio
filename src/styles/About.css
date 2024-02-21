@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 50%;
     margin-top: 100px;
+    
 }
 
 .about-container .intro-text {
@@ -14,6 +15,7 @@
 .about-container .overview-text {
     font-size: 45px;
     font-weight: bold;
+    min-width: 300px;
     
 }
 
@@ -23,13 +25,10 @@
 
 }
 
-.overview-container .overview-text {
-    min-width: 400px;
-    max-width: 100%;
-}
+
 .module-img {
     height: 450px;
-    width: 450px;
+    min-width: 450px;
 }
 
 @media screen and (max-width: 600px) {
