@@ -4,6 +4,8 @@ import ProjectVideo from './ProjectVideo';
 import feedGif from '../../assets/projects/feedpet.gif';
 import evolveGif from '../../assets/projects/evolve.gif';
 import petGif from '../../assets/projects/pets.gif';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import '../../styles/Projects.css';
 
 const Eggtopia: React.FC = () => {
