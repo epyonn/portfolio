@@ -51,9 +51,16 @@
 .eggtopia-video-container {
     display: flex;
     flex-direction: row;
-
-
 }
+
+.button-container {
+    align-self: center;
+}
+
+.icon-size .MuiSvgIcon-root {
+    font-size: 10rem;
+}
+
 
 .gif-container {
     display: flex;
