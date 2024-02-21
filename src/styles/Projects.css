@@ -48,6 +48,27 @@
     margin-top: 30px;
 }
 
+.eggtopia-video-container {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-video {
+    height: auto;
+    width: auto;
+    align-self: center;
+    
+}
+
+
+
 @media screen and (max-width: 600px) {
     .projects-container, .cc-container {
         width: 100%; /* Adjust width for smaller screens */

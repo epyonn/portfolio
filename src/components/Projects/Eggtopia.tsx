@@ -25,9 +25,14 @@ const Eggtopia: React.FC = () => {
             <div className="eggtopia-video-container">
                 <Button onClick={handlePreviousGif}>Previous</Button>
                 <div className="gif-container">
-                    <ProjectVideo videoPath={gifs[(currentGifIndex - 1 + gifs.length) % gifs.length]} width={"153"} height={"332.5"} />
+                    <div className='p-video'>
+                        <ProjectVideo   videoPath={gifs[(currentGifIndex - 1 + gifs.length) % gifs.length]} width={"153"} height={"332.5"} />
+                    </div>
+                    
                     <ProjectVideo videoPath={gifs[currentGifIndex]} width={"306"} height={"665"} />
-                    <ProjectVideo videoPath={gifs[(currentGifIndex + 1) % gifs.length]} width={"153"} height={"332.5"} />
+                    <div className='p-video'>
+                        <ProjectVideo videoPath={gifs[(currentGifIndex + 1) % gifs.length]} width={"153"} height={"332.5"} />
+                    </div>
                 </div>
                 <Button onClick={handleNextGif}>Next</Button>
             </div>
