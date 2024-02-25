@@ -1,3 +1,11 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .work-container .work-text {
     font-size: 45px;
     font-weight: bold;
@@ -5,8 +13,29 @@
 }
 
 
-.project-gif {
+.work-video {
     border-radius: 15px;
     border: 1px solid black;
     margin: 10px;
+ 
+}
+
+.work-description {
+    width: 800px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .work-video {
+        width: 97%; /* Make GIFs responsive */
+        height: auto; /* Adjust height automatically */
+        max-width: 600px; /* Maximum width for GIFs */
+        margin: 5px; /* Adjust margins for smaller screens */
+    }
+
+    .work-description {
+        width: 95%; /* Adjust width to fit mobile screens */
+        margin: 10px; /* Adjust margins as needed */
+    }
+
 }

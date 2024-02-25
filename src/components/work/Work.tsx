@@ -21,9 +21,14 @@ const Work: React.FC = () => {
                 animate='animate'
                 variants={fadeInVariants}
             >
-                <Typography className="work-text"> Work Experience </Typography>
+                <Typography className="work-text"> Work Experience. </Typography>
             </motion.div>
-            <video src={brixely} autoPlay loop muted width={"850"} height={"600"} className="project-gif"/>
+            <video src={brixely} autoPlay loop muted width={"850"}  className="work-video"/>
+            <div className='work-description'>
+                <Typography>
+                    Currently employed at Brixely as a software engineer. (Demo content approved for portfolio)
+                </Typography>
+            </div>
         </div>
     )
 }
