@@ -3,3 +3,10 @@
     font-weight: bold;
     min-width: 300px;
 }
+
+
+.project-gif {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 10px;
+}
