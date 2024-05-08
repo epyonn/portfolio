@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1427c390.css",
-    "main.js": "/portfolio/static/js/main.bcb801ee.js",
+    "main.css": "/portfolio/static/css/main.6a9a66f3.css",
+    "main.js": "/portfolio/static/js/main.eed6bffa.js",
     "static/js/772.02413885.chunk.js": "/portfolio/static/js/772.02413885.chunk.js",
     "static/js/10.122d6c7e.chunk.js": "/portfolio/static/js/10.122d6c7e.chunk.js",
     "static/media/crime-compass2.gif": "/portfolio/static/media/crime-compass2.70b89d6a2cd7642d90a4.gif",
     "static/media/pets.gif": "/portfolio/static/media/pets.a0ac2582d32da10566e8.gif",
     "static/media/evolve.gif": "/portfolio/static/media/evolve.a60b8f5b605790395f56.gif",
     "static/media/feedpet.gif": "/portfolio/static/media/feedpet.3abf17250ea768991202.gif",
-    "static/media/brixely.mp4": "/portfolio/static/media/brixely.6eb8bc7eeb196134f34f.mp4",
     "static/media/matrixcode3-export.gif": "/portfolio/static/media/matrixcode3-export.99d1a4ee4e232a30ad37.gif",
     "static/media/solarpanel.png": "/portfolio/static/media/solarpanel.0a9c651f6ef8fce4ba2b.png",
     "static/media/character4.webp": "/portfolio/static/media/character4.38628fc975d8ef11e150.webp",
     "index.html": "/portfolio/index.html",
-    "main.1427c390.css.map": "/portfolio/static/css/main.1427c390.css.map",
-    "main.bcb801ee.js.map": "/portfolio/static/js/main.bcb801ee.js.map",
+    "main.6a9a66f3.css.map": "/portfolio/static/css/main.6a9a66f3.css.map",
+    "main.eed6bffa.js.map": "/portfolio/static/js/main.eed6bffa.js.map",
     "772.02413885.chunk.js.map": "/portfolio/static/js/772.02413885.chunk.js.map",
     "10.122d6c7e.chunk.js.map": "/portfolio/static/js/10.122d6c7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1427c390.css",
-    "static/js/main.bcb801ee.js"
+    "static/css/main.6a9a66f3.css",
+    "static/js/main.eed6bffa.js"
   ]
 }
