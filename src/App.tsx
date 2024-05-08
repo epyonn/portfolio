@@ -9,7 +9,7 @@ import BallCanvas from './components/geometry/BallCanvas';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-import Work from './components/work/Work';
+
 import Scene from './components/contact/Scene';
 import './App.css';
 
@@ -20,7 +20,6 @@ function App() {
       <Header title="Davis Nguyen" />
       <Splash />
       <About />
-      <Work />
       <Projects />
       <Contact />
     </div>
